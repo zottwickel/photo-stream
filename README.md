@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This rails app talks to the flickr API. You input a user id code, and get back a list of their public photos.
+It was made as part of The Odin Project at www.theodinproject.com.
+The flickr API can be found here: https://www.flickr.com/services/api/
