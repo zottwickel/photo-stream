@@ -1,0 +1,13 @@
+<h1>Enter flickr id:</h1>
+<%= form_for "/", {method: "get"} do |f| %>
+	<%= f.text_field :id %>
+	<%= f.submit "SUBMIT" %>
+<% end %>
+
+<% if @photos != nil %>
+	<ul>
+		<%= @photos.each do |photo| %>
+			<li><%= image_tag photo %></li>
+		<% end %>
+	</ul>
+<% end %>
