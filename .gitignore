@@ -21,3 +21,7 @@
 /yarn-error.log
 
 .byebug_history
+
+# Ignore secret keys for flickr
+
+/config/flickr.yml
